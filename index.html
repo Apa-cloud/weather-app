@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">  <!-- using the style.css file-->
+</head>
+<body>
+    <div id="weather-container">  <!-- title of the project -->
+        <h2>Weather App</h2> 
+        <input type="text" id="city" placeholder="Enter city">  <!-- text input for taking name of city from user -->
+        <button onclick="getWeather()">Search</button>  <!-- Button element with function called on click -->
+
+        <img id="weather-icon" alt="Weather Icon">
+
+        <div id="temp-div"></div>  <!-- holding temperature -->
+
+        <div id="weather-info"></div>  <!-- holding weather information  -->
+
+        <div id="hourly-forecast"></div>  <!-- holding hourly forcast -->
+    </div>
+    <script src="./script.js"></script>  <!-- including the javaScript file for functionality -->
+</body>
+</html>
