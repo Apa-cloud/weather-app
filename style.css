@@ -1,0 +1,9 @@
+body {
+    background: #ff52ae;  /* background Colour */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /* Fonts */
+    display: flex;         /* Stretches or shrinks acc. to screen size */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
