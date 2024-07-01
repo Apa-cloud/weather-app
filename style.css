@@ -1,7 +1,7 @@
 body {
-    background: #ff52ae;  /* background Colour */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /* Fonts */
-    display: flex;         /* Stretches or shrinks acc. to screen size */
+    background: #ff52ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -24,7 +24,7 @@ h2, label, p {
     margin: 8px 0;
 }
 
-input {    /* Input element */
+input {
     width: calc(100% - 16px);
     padding: 8px;
     box-sizing: border-box;
@@ -32,6 +32,7 @@ input {    /* Input element */
     border: 1px solid white;
     margin-top: 20px;
 }
+
 button {
     background: #debff4;
     color: white;
@@ -43,11 +44,12 @@ button {
     width: 100px;
     font-size: 15px;
 }
+
 button:hover {
     background: #8b48d7;
 }
 
-#temp-div p {   /* Paragraph element */
+#temp-div p {  /* Paragraph element inside temp div */
     font-size: 60px;
     margin-top: -30px;
 }
