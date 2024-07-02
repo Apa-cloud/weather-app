@@ -1,5 +1,5 @@
 body {
-    background: #8C52FF;
+    background: #ff52a9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
@@ -48,7 +48,7 @@ button:hover {
     background: #8b48d7;
 }
 
-#temp-div p {
+#temp-div p { /* Paragraph element inside temp div */
     font-size: 60px;
     margin-top: -30px;
 }
