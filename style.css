@@ -1,5 +1,7 @@
 body {
-    background: #ff52a9;
+    background-image: url("Image_4.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
@@ -19,7 +21,7 @@ body {
 }
 
 h2, label, p {
-    color: #fff;
+    color: #28367a;
     margin: 8px 0;
 }
 
@@ -80,7 +82,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     margin-right: 10px;
-    color: white;
+    color: rgb(109, 34, 194);
 }
 
 .hourly-item img {
@@ -93,3 +95,5 @@ button:hover {
     color: #fff;
     margin-top: 10px;
 }
+
+/* background: #ff52a9; */
