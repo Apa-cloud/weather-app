@@ -1,7 +1,7 @@
 body {
     background-image: url("Image_4.jpeg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
